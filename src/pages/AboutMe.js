@@ -1,14 +1,13 @@
 import React from "react";
+import "./pages.css";
+
 // import myImage from ".../public/LauraKayProfileImage";
+import ProfilePic from "../assets/LauraKayProfileImage.png";
 
 export default function AboutMe() {
   return (
     <div className="aboutMe">
-      <img
-        src=".../public/LauraKayProfileImage"
-        alt="Profile Image Laura"
-        id="lauraProfileImage"
-      />
+      <img src={ProfilePic} className="profile-picture" alt="profile" />
       <p className="aboutMe">
         Hi, I'm Laura, full-stack web developer.
         <br />

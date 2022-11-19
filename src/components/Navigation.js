@@ -23,6 +23,22 @@ export default function Nav({ currentPage, handlePageChange }) {
                 <a
                   className="nav-link"
                   aria-current="page"
+                  href="#home"
+                  //Ternary operator, check to see if current page is Home.
+
+                  onClick={() => handlePageChange("Home")}
+                  //if it is, set current page to 'nav-item-active', otherwise set it to 'nav-link'
+                  className={
+                    currentPage === "Home" ? "nav-item active" : "nav-link"
+                  }
+                >
+                  About Me
+                </a>
+              </li>
+              <li className="nav-item active">
+                <a
+                  className="nav-link"
+                  aria-current="page"
                   href="#aboutme"
                   //Ternary operator, check to see if current page is About Me.
 

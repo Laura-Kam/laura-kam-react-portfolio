@@ -8,7 +8,7 @@ export default function Header() {
         className="p-5 text-center bg-image"
         style={{
           backgroundImage: `url("https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80")`,
-          height: "400px",
+          height: "290px",
         }}
       >
         <div

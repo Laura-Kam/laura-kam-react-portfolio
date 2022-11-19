@@ -1,0 +1,14 @@
+.profile-picture {
+    width: 24%;
+    height: 11%
+}
+.aboutMe {
+ display: inline;
+ line-height: 35px;
+ margin-left: 130px;
+ flex-wrap: wrap;
+}
+
+
+
+  
