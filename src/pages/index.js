@@ -10,8 +10,8 @@ class MainPage extends Component {
   render() {
     return (
       <>
-        <Header />
-        <Footer />
+        {/* <Header />
+        <Footer /> */}
       </>
     );
   }
