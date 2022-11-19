@@ -82,7 +82,7 @@ export default function Footer() {
         >
           © 2020 Copyright:
           <a className="text-dark" href="https://mdbootstrap.com/">
-            MDBootstrap.com
+            LKCodeSolutions
           </a>
         </div>
         {/* <!-- Copyright --> */}

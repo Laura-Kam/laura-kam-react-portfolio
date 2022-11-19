@@ -2,7 +2,7 @@ import React from "react";
 import "./pages.css";
 
 // import myImage from ".../public/LauraKayProfileImage";
-import ProfilePic from "../assets/LauraKayProfileImage.png";
+import ProfilePic from "../assets/devPicLKBlue.png";
 
 export default function AboutMe() {
   return (

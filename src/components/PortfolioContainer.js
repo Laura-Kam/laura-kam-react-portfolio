@@ -11,10 +11,6 @@ import Home from "../pages/Home";
 //if statements to render correct page according to user click
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("AboutMe");
-  const renderPage = () => {
-    if (currentPage === "Home") {
-      return <Home />;
-    }
     if (currentPage === "AboutMe") {
       return <AboutMe />;
     }
