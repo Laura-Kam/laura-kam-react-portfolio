@@ -1,20 +1,47 @@
-import React, { Component } from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+// import React, { Component } from "react";
+// import Nav from "../components/Navigation";
+// import Portfolio from "./Portfolio";
+// import Resume from "./Resume";
+// import AboutMe from "./AboutMe";
 
-//all basic components here
+// // import Footer from "../components/Footer";
+// // import Header from "../components/Header";
 
-//Header, Footer, etc
+// //all basic components here
 
-class MainPage extends Component {
-  render() {
-    return (
-      <>
-        {/* <Header />
-        <Footer /> */}
-      </>
-    );
-  }
-}
+// //Header, Footer, etc
 
-export default MainPage;
+// class MainPage extends Component {
+//   render() {
+//     return (
+//       <>
+//         {/* <Header />
+//         <Footer /> */}
+//       </>
+//     );
+//   }
+// }
+
+// export default MainPage;
+
+// import React, { Component } from "react";
+
+// // import Footer from "../components/Footer";
+// // import Header from "../components/Header";
+
+// //all basic components here
+
+// //Header, Footer, etc
+
+// class MainPage extends Component {
+//   render() {
+//     return (
+//       <>
+//         {/* <Header />
+//         <Footer /> */}
+//       </>
+//     );
+//   }
+// }
+
+// export default MainPage;
