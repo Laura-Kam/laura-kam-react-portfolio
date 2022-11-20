@@ -21,7 +21,7 @@ export default function Header() {
               <h4 className="mb-3">Coding Solutions </h4>
               <a
                 className="btn btn-outline-light btn-lg"
-                href="#!"
+                href="http://localhost:3000/#contact"
                 role="button"
               >
                 Let's Talk

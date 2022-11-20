@@ -1,9 +1,5 @@
 //6 project cards inside.
 import React from "react";
-// import "./pages.css";
-
-// import myImage from ".../public/LauraKayProfileImage";
-// import ProfilePic from "../assets/devPicLKBlue.png";
 
 export default function Portfolio() {
   return (
@@ -31,6 +27,68 @@ export default function Portfolio() {
               </a>
               <a
                 href="https://github.com/Laura-Kam/Sun-s-come-out-app"
+                className="btn btn-primary"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col">
+        <div className="card w-60 h-40 m-5">
+          <img
+            src="https://images.unsplash.com/photo-1509475826633-fed577a2c71b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+            class="card-img-top"
+            alt="Palm Springs Road"
+          />
+          <div className="card-body">
+            <h5 className="card-title">TextEd Text Editor App</h5>
+            <p className="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <div>
+              <a
+                href="https://cryptic-dawn-19004.herokuapp.com/"
+                className="btn btn-primary"
+              >
+                App
+              </a>
+              <a
+                href="https://github.com/Laura-Kam/TextEd"
+                className="btn btn-primary"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col">
+        <div className="card w-60 h-40 m-5">
+          <img
+            src="https://images.unsplash.com/photo-1509475826633-fed577a2c71b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+            class="card-img-top"
+            alt="Palm Springs Road"
+          />
+          <div className="card-body">
+            <h5 className="card-title">TextEd Text Editor App</h5>
+            <p className="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <div>
+              <a
+                href="https://cryptic-dawn-19004.herokuapp.com/"
+                className="btn btn-primary"
+              >
+                App
+              </a>
+              <a
+                href="https://github.com/Laura-Kam/TextEd"
                 className="btn btn-primary"
               >
                 Github
@@ -132,17 +190,5 @@ export default function Portfolio() {
         </div>
       </div>
     </div>
-    //   <div className="aboutMe">
-    //     <img src={ProfilePic} className="profile-picture" alt="profile" />
-    //     <p className="aboutMe">
-    //       Hi, I'm Laura, full-stack web developer.
-    //       <br />
-    //       I am in this industry to solve real-world problems with my applications.
-    //       <br />
-    //       I am currently based in Birmingham, in the UK.
-    //       <br />
-    //       You are welcome to look around.
-    //     </p>
-    //   </div>
   );
 }
