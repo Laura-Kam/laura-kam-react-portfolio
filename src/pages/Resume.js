@@ -18,7 +18,7 @@ export default function Resume() {
       <MDBCard>
         <MDBCardBody>
           <MDBCardTitle>Competencies</MDBCardTitle>
-          <MDBCardText>Download My Resume</MDBCardText>
+          {/* <MDBCardText>Download My Resume</MDBCardText> */}
           {/* const onButtonClick = () ={">"}
           {
             // using Java Script method to get PDF file
@@ -39,16 +39,52 @@ export default function Resume() {
             <h3>Click on below button to download PDF file</h3>
             <button onClick={onButtonClick}>Download PDF</button>
           </center> */}
-          <MDBBtn>Button</MDBBtn>
+          {/* <MDBBtn>Button</MDBBtn> */}
+          <a
+            href="../../../LauraKambanisCV.pdf"
+            target={"_blank"}
+            download
+            className="btn btn-primary"
+          >
+            Download Resume
+          </a>
         </MDBCardBody>
       </MDBCard>
       <MDBCard>
         <MDBListGroup flush>
-          <MDBListGroupItem>Cras justo odio</MDBListGroupItem>
-          <MDBListGroupItem>Dapibus ac facilisis in</MDBListGroupItem>
-          <MDBListGroupItem>Vestibulum at eros</MDBListGroupItem>
+          <MDBListGroupItem>
+            <div>
+              <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                Front-End:
+              </span>
+              <br />
+              HTML <br />
+              CSS <br />
+              Javascript <br />
+              JQuery <br />
+              Responsive Design <br />
+              React <br />
+              Boostrap
+            </div>
+          </MDBListGroupItem>
+          <MDBListGroupItem>
+            {" "}
+            <div>
+              <span style={{ fontWeight: "bold", fontSize: "18px" }}>
+                Back-End:
+              </span>{" "}
+              <br />
+              API <br />
+              Node <br />
+              Express <br />
+              MySQL,Sequelize <br />
+              MongoDB, Mongoose <br />
+              REST <br />
+              GraphSQL
+            </div>
+          </MDBListGroupItem>
         </MDBListGroup>
-        <MDBCardFooter>Card footer</MDBCardFooter>
+        {/* <MDBCardFooter>Card footer</MDBCardFooter> */}
       </MDBCard>
     </div>
   );
