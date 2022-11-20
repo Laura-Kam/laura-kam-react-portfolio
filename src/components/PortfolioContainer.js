@@ -8,31 +8,29 @@ import AboutMe from "../pages/AboutMe";
 import Contact from "../pages/Contact";
 
 //if statements to render correct page according to user click
-export default function PortfolioContainer({ currentPage }) {
-  const [currentPage, setCurrentPage] = useState("AboutMe");
+function PortfolioContainer({ currentPage }) {
   // const renderPage = () => {
-  return function renderPage() {
-    if (currentPage === "AboutMe") {
-      return <AboutMe />;
+  function renderPage() {
+    switch (currentPage.name) {
+      case "about me":
+        return <AboutMe />;
+      case "portfolio":
+        return <Portfolio />;
+      case "contact":
+        return <Contact />;
+      case "resume":
+        return <Resume />;
+      default:
+        return <AboutMe />;
     }
-    if (currentPage === "Portfolio") {
-      return <Portfolio />;
-    }
-    if (currentPage === "Resume") {
-      return <Resume />;
-    }
-    if (currentPage === "Contact") {
-      return <Contact />;
-    }
-    return <AboutMe />;
-  };
+  }
 
   // const handlePageChange = (page) => setCurrentPage(page);
   // //render correct page
-  // return (
-  //   <div>
-  //     <Nav currentPage={currentPage} handlePagechange={handlePageChange} />
-  //     <div>{renderPage()}</div>
-  //   </div>
-  // );
+  return (
+    <div>
+      <div>{renderPage()}</div>
+    </div>
+  );
 }
+export default PortfolioContainer;
