@@ -55,7 +55,7 @@ export default function Footer() {
             {/* <!-- Linkedin --> */}
             <a
               className="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
+              href="https://www.linkedin.com/in/laura-c-622685223/"
               role="button"
               data-mdb-ripple-color="dark"
             >
@@ -64,7 +64,7 @@ export default function Footer() {
             {/* <!-- Github --> */}
             <a
               className="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="#!"
+              href="https://github.com/laura-kam/"
               role="button"
               data-mdb-ripple-color="dark"
             >
@@ -82,7 +82,7 @@ export default function Footer() {
         >
           © 2020 Copyright:
           <a className="text-dark" href="https://mdbootstrap.com/">
-            LKCodeSolutions
+            LK-Code Solutions
           </a>
         </div>
         {/* <!-- Copyright --> */}
