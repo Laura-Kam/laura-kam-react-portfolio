@@ -100,7 +100,7 @@ export default function Portfolio() {
       <div className="col">
         <div className="card w-60 h-40 m-5">
           <img
-            src="https://images.unsplash.com/photo-1509475826633-fed577a2c71b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+            src="https://images.unsplash.com/photo-1517490232338-06b912a786b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
             class="card-img-top"
             alt="Palm Springs Road"
           />
@@ -113,13 +113,13 @@ export default function Portfolio() {
             </p>
             <div>
               <a
-                href="https://cryptic-dawn-19004.herokuapp.com/"
+                href="https://watch.screencastify.com/v/OA1SjIsSOTd4Mn7v8I2b"
                 className="btn btn-primary"
               >
-                App
+                Video
               </a>
               <a
-                href="https://github.com/Laura-Kam/TextEd"
+                href="https://github.com/Laura-Kam/Organise-my-ShopStock"
                 className="btn btn-primary"
               >
                 Github

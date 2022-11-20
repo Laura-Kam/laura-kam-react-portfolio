@@ -58,7 +58,7 @@ export default function Contact() {
         </div>
         <MDBBtn href="#">Submit</MDBBtn>
       </MDBCardBody>
-      <MDBCardFooter>LK Solutions</MDBCardFooter>
+      <MDBCardFooter>LK Coding Solutions</MDBCardFooter>
     </MDBCard>
   );
 }
