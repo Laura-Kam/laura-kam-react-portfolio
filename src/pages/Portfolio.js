@@ -9,7 +9,7 @@ export default function Portfolio() {
   return (
     <div class="row row-cols-1 row-cols-sm-3 g-4">
       <div className="col">
-        <div className="card w-60 h-40">
+        <div className="card w-60 h-40 m-5">
           <img
             src="https://images.unsplash.com/photo-1472114864173-39596323454f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             class="card-img-top"
@@ -40,7 +40,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="col">
-        <div className="card w-60 h-40">
+        <div className="card w-60 h-40 m-5">
           <img
             src="https://images.unsplash.com/photo-1509475826633-fed577a2c71b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
             class="card-img-top"
@@ -71,7 +71,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="col">
-        <div className="card w-60 h-40">
+        <div className="card w-60 h-40 m-5">
           <img
             src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=868&q=80"
             class="card-img-top"
@@ -101,7 +101,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="col">
-        <div className="card w-60 h-40">
+        <div className="card w-60 h-40 m-5">
           <img
             src="https://images.unsplash.com/photo-1634224143538-ce0221abf732?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
             class="card-img-top"
