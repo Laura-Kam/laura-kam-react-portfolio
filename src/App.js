@@ -5,13 +5,16 @@ import Footer from "./components/Footer";
 // import MainPage from "./pages";
 import Nav from "./components/Navigation";
 import AboutMe from "./pages/AboutMe";
+import Contact from "./pages/Contact";
+import PortfolioContainer from "./components/PortfolioContainer";
 
 function App() {
   return (
     <div className="App">
-      <Nav className="App-nav" />
+      <Nav className="App-nav" setCurrentPage={setCurrentPage} />
       <Header className="App-header" />
-      <AboutMe />
+      {/* <AboutMe /> */}
+      <PortfolioContainer />
       <Footer className="App-footer" />
     </div>
   );

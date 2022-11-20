@@ -1,5 +1,7 @@
 import React from "react";
 
+//when click on nav bar items- renders page in between header and footer.
+
 export default function Nav({ currentPage, handlePageChange }) {
   return (
     <header>
@@ -19,22 +21,6 @@ export default function Nav({ currentPage, handlePageChange }) {
           </button>
           <div className="collapse navbar-collapse" id="navbarExample01">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item active">
-                <a
-                  className="nav-link"
-                  aria-current="page"
-                  href="#home"
-                  //Ternary operator, check to see if current page is Home.
-
-                  onClick={() => handlePageChange("Home")}
-                  //if it is, set current page to 'nav-item-active', otherwise set it to 'nav-link'
-                  className={
-                    currentPage === "Home" ? "nav-item active" : "nav-link"
-                  }
-                >
-                  About Me
-                </a>
-              </li>
               <li className="nav-item active">
                 <a
                   className="nav-link"
