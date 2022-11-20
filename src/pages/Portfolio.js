@@ -18,7 +18,7 @@ export default function Portfolio() {
               lead-in to additional content. This content is a little bit
               longer.
             </p>
-            <div>
+            <div className="d-flex justify-content-evenly">
               <a
                 href="https://laura-kam.github.io/Sun-s-come-out-app/"
                 className="btn btn-primary"
@@ -49,7 +49,7 @@ export default function Portfolio() {
               lead-in to additional content. This content is a little bit
               longer.
             </p>
-            <div>
+            <div className="d-flex justify-content-evenly">
               <a
                 href="https://cryptic-dawn-19004.herokuapp.com/"
                 className="btn btn-primary"
@@ -80,7 +80,7 @@ export default function Portfolio() {
               lead-in to additional content. This content is a little bit
               longer.
             </p>
-            <div>
+            <div className="d-flex justify-content-evenly">
               <a
                 href="https://watch.screencastify.com/v/WmSWJcROgn9cd9LAN12u"
                 className="btn btn-primary"
@@ -111,7 +111,7 @@ export default function Portfolio() {
               lead-in to additional content. This content is a little bit
               longer.
             </p>
-            <div>
+            <div className="d-flex justify-content-evenly">
               <a
                 href="https://watch.screencastify.com/v/OA1SjIsSOTd4Mn7v8I2b"
                 className="btn btn-primary"
@@ -141,7 +141,7 @@ export default function Portfolio() {
               This is a longer card with supporting text below as a natural
               lead-in to additional content.
             </p>
-            <div>
+            <div className="d-flex justify-content-evenly">
               <a
                 href="https://laura-kam.github.io/Schedule-my-life/"
                 className="btn btn-primary"
@@ -172,7 +172,7 @@ export default function Portfolio() {
               lead-in to additional content. This content is a little bit
               longer.
             </p>
-            <div>
+            <div className="d-flex justify-content-evenly">
               <a
                 href="https://laura-kam.github.io/GenerateMyPassword/"
                 className="btn btn-primary"
