@@ -69,12 +69,12 @@ export default function Portfolio() {
       <div className="col">
         <div className="card w-60 h-40 m-5">
           <img
-            src="https://images.unsplash.com/photo-1509475826633-fed577a2c71b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+            src="https://images.unsplash.com/photo-1554177255-61502b352de3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             class="card-img-top"
             alt="Palm Springs Road"
           />
           <div className="card-body">
-            <h5 className="card-title">TextEd Text Editor App</h5>
+            <h5 className="card-title">EchoChamber App</h5>
             <p className="card-text">
               This is a longer card with supporting text below as a natural
               lead-in to additional content. This content is a little bit
@@ -82,13 +82,13 @@ export default function Portfolio() {
             </p>
             <div>
               <a
-                href="https://cryptic-dawn-19004.herokuapp.com/"
+                href="https://watch.screencastify.com/v/WmSWJcROgn9cd9LAN12u"
                 className="btn btn-primary"
               >
-                App
+                Video
               </a>
               <a
-                href="https://github.com/Laura-Kam/TextEd"
+                href="https://github.com/Laura-Kam/EchoChamber"
                 className="btn btn-primary"
               >
                 Github
@@ -105,7 +105,7 @@ export default function Portfolio() {
             alt="Palm Springs Road"
           />
           <div className="card-body">
-            <h5 className="card-title">TextEd Text Editor App</h5>
+            <h5 className="card-title">Organise My ShopStock App</h5>
             <p className="card-text">
               This is a longer card with supporting text below as a natural
               lead-in to additional content. This content is a little bit
