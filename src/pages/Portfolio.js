@@ -13,11 +13,7 @@ export default function Portfolio() {
           />
           <div className="card-body">
             <h5 className="card-title">Sun's Come Out App</h5>
-            <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+            <p className="card-text">What's the weather in Madrid?</p>
             <div className="d-flex justify-content-evenly">
               <a
                 href="https://laura-kam.github.io/Sun-s-come-out-app/"
@@ -44,11 +40,7 @@ export default function Portfolio() {
           />
           <div className="card-body">
             <h5 className="card-title">TextEd Text Editor App</h5>
-            <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+            <p className="card-text">Record your thoughts.</p>
             <div className="d-flex justify-content-evenly">
               <a
                 href="https://cryptic-dawn-19004.herokuapp.com/"
@@ -75,11 +67,7 @@ export default function Portfolio() {
           />
           <div className="card-body">
             <h5 className="card-title">EchoChamber App</h5>
-            <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+            <p className="card-text">Social Media at it's smartest.</p>
             <div className="d-flex justify-content-evenly">
               <a
                 href="https://watch.screencastify.com/v/WmSWJcROgn9cd9LAN12u"
@@ -107,9 +95,7 @@ export default function Portfolio() {
           <div className="card-body">
             <h5 className="card-title">Organise My ShopStock App</h5>
             <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Your one-stop app for organising your products.
             </p>
             <div className="d-flex justify-content-evenly">
               <a
@@ -138,8 +124,7 @@ export default function Portfolio() {
           <div className="card-body">
             <h5 className="card-title">Schedule My Life App</h5>
             <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content.
+              A colour-coded app, to make sure no appointments are missed.
             </p>
             <div className="d-flex justify-content-evenly">
               <a
@@ -168,9 +153,7 @@ export default function Portfolio() {
           <div className="card-body">
             <h5 className="card-title">Generate My Password App</h5>
             <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Random Password Generator, for when you are all out of ideas.
             </p>
             <div className="d-flex justify-content-evenly">
               <a

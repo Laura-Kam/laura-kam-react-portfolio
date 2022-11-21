@@ -73,7 +73,7 @@ Through 'npm run build' the dist folder will be built, bundling your assets for 
 
 ## Screenshot
 
-![Screenshot](https://github.com/Laura-Kam/TextEd/issues/1#issue-1448834478)
+![Screenshot](https://github.com/Laura-Kam/laura-kam-react-portfolio/issues/1#issue-1458230333)
 
 ## Bugs
 
@@ -92,7 +92,7 @@ Through 'npm run build' the dist folder will be built, bundling your assets for 
 
 [Github Repository](https://github.com/Laura-Kam/laura-kam-react-portfolio/issues/new)
 
-[Heroku Live URL](https://cryptic-dawn-19004.herokuapp.com/)
+[Heroku Live URL](https://laura-kam.github.io/laura-kam-react-portfolio/)
 
 ## Contributing
 
