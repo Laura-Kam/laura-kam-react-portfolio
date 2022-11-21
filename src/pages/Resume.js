@@ -55,7 +55,7 @@ export default function Resume() {
           <MDBListGroupItem>
             <div>
               <span style={{ fontWeight: "bold", fontSize: "18px" }}>
-                Front-End:
+                Front-End
               </span>
               <br />
               HTML <br />
@@ -71,7 +71,7 @@ export default function Resume() {
             {" "}
             <div>
               <span style={{ fontWeight: "bold", fontSize: "18px" }}>
-                Back-End:
+                Back-End
               </span>{" "}
               <br />
               API <br />
