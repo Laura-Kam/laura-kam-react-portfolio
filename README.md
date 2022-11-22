@@ -74,7 +74,7 @@ Through 'npm run build' the dist folder will be built, bundling your assets for 
 
 ## Screenshot
 
-![Screenshot](https://github.com/Laura-Kam/laura-kam-react-portfolio/issues/1#issue-1458230333)
+![screenshot](https://github.com/Laura-Kam/laura-kam-react-portfolio/issues/2#issue-1458648974)
 
 ## Bugs
 
@@ -91,7 +91,7 @@ Through 'npm run build' the dist folder will be built, bundling your assets for 
 
 ## Links to repo and heroku
 
-[Github Repository](https://github.com/Laura-Kam/laura-kam-react-portfolio/issues/new)
+[Github Repository](https://github.com/Laura-Kam/laura-kam-react-portfolio/)
 
 [LiveURL](https://laura-kam.github.io/laura-kam-react-portfolio/)
 
