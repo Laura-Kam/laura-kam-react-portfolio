@@ -74,7 +74,7 @@ Through 'npm run build' the dist folder will be built, bundling your assets for 
 
 ## Screenshot
 
-![screenshot](https://github.com/Laura-Kam/laura-kam-react-portfolio/issues/2#issue-1458648974)
+![screenshot](https://user-images.githubusercontent.com/104718053/203166865-e5ce54c8-a8dd-4e2e-bf80-7ef3ccd0386a.png)
 
 ## Bugs
 
