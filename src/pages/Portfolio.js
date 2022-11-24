@@ -1,6 +1,7 @@
 //6 project cards inside.
 import React from "react";
 
+//JSX 6 cards.
 export default function Portfolio() {
   return (
     <div class="row row-cols-1 row-cols-sm-3 g-4">
@@ -15,6 +16,7 @@ export default function Portfolio() {
             <h5 className="card-title">Sun's Come Out App</h5>
             <p className="card-text">What's the weather in Madrid?</p>
             <div className="d-flex justify-content-evenly">
+              {/* links to github and deployed app */}
               <a
                 href="https://laura-kam.github.io/Sun-s-come-out-app/"
                 className="btn btn-primary"

@@ -31,8 +31,5 @@ export default function Header() {
         </div>
       </div>
     </header>
-    // <>
-    //   <p>header</p>
-    // </>
   );
 }

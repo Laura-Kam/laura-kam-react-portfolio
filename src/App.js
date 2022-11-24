@@ -22,6 +22,7 @@ function App() {
   ]);
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
+  // setting up main page
   return (
     <div className="App">
       <Nav
@@ -37,4 +38,5 @@ function App() {
   );
 }
 
+//exporting app
 export default App;

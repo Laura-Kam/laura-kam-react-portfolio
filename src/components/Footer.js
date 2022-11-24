@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    //react fragments - one block
+    //icons containing links to social media etc
     <>
       <footer
         className="text-center text-white"

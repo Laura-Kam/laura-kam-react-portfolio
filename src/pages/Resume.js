@@ -18,28 +18,7 @@ export default function Resume() {
       <MDBCard>
         <MDBCardBody>
           <MDBCardTitle>Competencies</MDBCardTitle>
-          {/* <MDBCardText>Download My Resume</MDBCardText> */}
-          {/* const onButtonClick = () ={">"}
-          {
-            // using Java Script method to get PDF file
-            fetch({ LauraCV }).then((response) => {
-              response.blob().then((blob) => {
-                // Creating new object of PDF file
-                const fileURL = window.URL.createObjectURL(blob);
-                // Setting various property values
-                let alink = document.createElement("a");
-                alink.href = fileURL;
-                alink.download = { LauraCV };
-                alink.click();
-              });
-            })
-          }
-          <center>
-            <h1>Welcome to Geeks for Geeks</h1>
-            <h3>Click on below button to download PDF file</h3>
-            <button onClick={onButtonClick}>Download PDF</button>
-          </center> */}
-          {/* <MDBBtn>Button</MDBBtn> */}
+          {/* download resume */}
           <a
             href="../../../LauraKambanisCV.pdf"
             target={"_blank"}
@@ -53,6 +32,7 @@ export default function Resume() {
       <MDBCard>
         <MDBListGroup flush>
           <MDBListGroupItem>
+            {/* competencies */}
             <div>
               <span style={{ fontWeight: "bold", fontSize: "18px" }}>
                 Front-End

@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 
-// import myImage from ".../public/LauraKayProfileImage";
+// profile picture and about me
 import ProfilePic from "../assets/devPicLKBlue.png";
 
 export default function AboutMe() {
