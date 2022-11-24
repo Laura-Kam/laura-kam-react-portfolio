@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/laura-kam-react-portfolio/static/css/main.99e62e00.css",
-    "main.js": "/laura-kam-react-portfolio/static/js/main.8a4b7cd1.js",
+    "main.js": "/laura-kam-react-portfolio/static/js/main.52b5ea8b.js",
     "static/js/787.c7fbfa51.chunk.js": "/laura-kam-react-portfolio/static/js/787.c7fbfa51.chunk.js",
     "static/media/devPicLKBlue.png": "/laura-kam-react-portfolio/static/media/devPicLKBlue.357ab21d0901083b3679.png",
     "index.html": "/laura-kam-react-portfolio/index.html",
     "main.99e62e00.css.map": "/laura-kam-react-portfolio/static/css/main.99e62e00.css.map",
-    "main.8a4b7cd1.js.map": "/laura-kam-react-portfolio/static/js/main.8a4b7cd1.js.map",
+    "main.52b5ea8b.js.map": "/laura-kam-react-portfolio/static/js/main.52b5ea8b.js.map",
     "787.c7fbfa51.chunk.js.map": "/laura-kam-react-portfolio/static/js/787.c7fbfa51.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99e62e00.css",
-    "static/js/main.8a4b7cd1.js"
+    "static/js/main.52b5ea8b.js"
   ]
 }
