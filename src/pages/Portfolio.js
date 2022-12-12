@@ -68,8 +68,8 @@ export default function Portfolio() {
             alt="Palm Springs Road"
           />
           <div className="card-body">
-            <h5 className="card-title">EchoChamber App</h5>
-            <p className="card-text">Social Media at it's smartest.</p>
+            <h5 className="card-title">Maifrigo Recipe App</h5>
+            <p className="card-text">100% Taste Zero Waste</p>
             <div className="d-flex justify-content-evenly">
               <a
                 href="https://watch.screencastify.com/v/WmSWJcROgn9cd9LAN12u"
@@ -78,10 +78,10 @@ export default function Portfolio() {
                 Video
               </a>
               <a
-                href="https://github.com/Laura-Kam/EchoChamber"
+                href="https://maifrigo-recipe-app.herokuapp.com/"
                 className="btn btn-primary"
               >
-                Github
+                Website
               </a>
             </div>
           </div>
