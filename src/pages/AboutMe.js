@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 
 // profile picture and about me
 import ProfilePic from "../assets/devPicLKBlue.png";
@@ -18,20 +18,9 @@ export default function AboutMe() {
         <br />
         You are welcome to look around.
         <br />
-        <Link
-          to={{ pathname: "https://www.github.com/laura-kam/" }}
-          target="_blank"
-        >
-          GitHub
-        </Link>
+        <a href="https://www.github.com/laura-kam">GitHub</a>
         <br />
-        <Link
-          to={{ pathname: "https://www.linkedin.com/in/laurakam/" }}
-          target="_blank"
-        >
-          Click to open LinkedIn (new tab)
-        </Link>
-        <br />
+        <a href="https://www.linkedin.com/in/laurakam/">LinkedIn</a>
         Get in touch: laurakam91@gmail.com
       </p>
     </div>
