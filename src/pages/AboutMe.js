@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import { BrowserRouter as Link } from "react-router-dom";
 
 // profile picture and about me
 import ProfilePic from "../assets/devPicLKBlue.png";
