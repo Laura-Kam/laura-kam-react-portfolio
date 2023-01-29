@@ -65,7 +65,7 @@ In the terminal, start by typing "npm i". This will install all the dependencies
 
 ## Usage
 
-Through 'npm run build' the dist folder will be built, bundling your assets for efficiency. The local host server will start on local host 3000. To deploy to a URL on Github pages, run 'npm run deploy' every time you have updates.
+Through 'npm run build' the dist folder will be built, bundling your assets for efficiency. The local host server will start on local host 3000. You can also run 'npm start'. To deploy to a URL on Github pages, run 'npm run deploy' every time you have updates.
 
 ## License
 

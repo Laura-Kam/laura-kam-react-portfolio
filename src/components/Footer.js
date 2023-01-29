@@ -55,7 +55,7 @@ export default function Footer() {
             {/* <!-- Linkedin --> */}
             <a
               className="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="https://www.linkedin.com/in/laurakam"
+              href="https://www.linkedin.com/in/laurakam/"
               role="button"
               data-mdb-ripple-color="dark"
             >
