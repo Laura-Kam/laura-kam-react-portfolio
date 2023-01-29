@@ -20,7 +20,8 @@ export default function AboutMe() {
         <a href="https://www.github.com/laura-kam">GitHub</a>
         <br />
         <a href="https://www.linkedin.com/in/laurakam/">LinkedIn</a>
-        Get in touch: laurakam91@gmail.com
+        <br />
+        laurakam91@gmail.com
       </p>
     </div>
   );
