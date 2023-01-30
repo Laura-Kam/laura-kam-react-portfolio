@@ -19,7 +19,7 @@ export default function AboutMe() {
         className="aboutMe text"
         style={{
           paddingTop: "35px",
-          fontSize: "17px",
+          fontSize: "1px",
         }}
       >
         Hi there, I'm Laura, and I am a frontend web developer.

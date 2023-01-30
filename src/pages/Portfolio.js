@@ -1,10 +1,62 @@
 //6 project cards inside.
 import React from "react";
+import { MDBBadge } from "mdb-react-ui-kit";
+import "./pages.css";
 
 //JSX 6 cards.
 export default function Portfolio() {
   return (
     <div class="row row-cols-1 row-cols-sm-3 g-4">
+      <div className="col">
+        <div className="card w-60 h-40 m-5">
+          <img
+            src="https://images.unsplash.com/photo-1554177255-61502b352de3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            class="card-img-top"
+            alt="Palm Springs Road"
+          />
+          <div className="card-body">
+            <h5 className="card-title">Maifrigo Recipe App</h5>
+            <p className="card-text">100% Taste Zero Waste</p>
+            <div className="d-flex justify-content-evenly">
+              <a
+                href="https://watch.screencastify.com/v/WmSWJcROgn9cd9LAN12u"
+                className="btn btn-primary"
+              >
+                Video
+              </a>
+              <a
+                href="https://maifrigo-recipe-app.herokuapp.com/"
+                className="btn btn-primary"
+              >
+                Website
+              </a>
+            </div>
+            <div className="maifrigoTechnologies">
+              <MDBBadge pill className="mx-2" color="info" light>
+                Node JS
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                Javascript
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                MongoDB
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                React JS
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                Express JS
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                API - Server Side
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                JWT Authentification
+              </MDBBadge>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="col">
         <div className="card w-60 h-40 m-5">
           <img
@@ -30,6 +82,33 @@ export default function Portfolio() {
                 Github
               </a>
             </div>
+            <MDBBadge
+              pill
+              className="mx-2"
+              color="info"
+              light
+              style={{ margin: "23px" }}
+            >
+              HTML5
+            </MDBBadge>
+            <MDBBadge
+              pill
+              className="mx-2"
+              color="info"
+              light
+              style={{ margin: "23px" }}
+            >
+              CSS
+            </MDBBadge>
+            <MDBBadge
+              pill
+              className="mx-2"
+              color="info"
+              light
+              style={{ margin: "23px" }}
+            >
+              Javascript
+            </MDBBadge>
           </div>
         </div>
       </div>
@@ -57,32 +136,28 @@ export default function Portfolio() {
                 Github
               </a>
             </div>
-          </div>
-        </div>
-      </div>
-      <div className="col">
-        <div className="card w-60 h-40 m-5">
-          <img
-            src="https://images.unsplash.com/photo-1554177255-61502b352de3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-            class="card-img-top"
-            alt="Palm Springs Road"
-          />
-          <div className="card-body">
-            <h5 className="card-title">Maifrigo Recipe App</h5>
-            <p className="card-text">100% Taste Zero Waste</p>
-            <div className="d-flex justify-content-evenly">
-              <a
-                href="https://watch.screencastify.com/v/WmSWJcROgn9cd9LAN12u"
-                className="btn btn-primary"
-              >
-                Video
-              </a>
-              <a
-                href="https://maifrigo-recipe-app.herokuapp.com/"
-                className="btn btn-primary"
-              >
-                Website
-              </a>
+            <div className="textEdTechnologies">
+              <MDBBadge pill className="mx-2" color="info" light>
+                Javascript
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                Heroku
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                Manifest JSON
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                PWA
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                Service Worker
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                IndexedDB
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                Webpack
+              </MDBBadge>
             </div>
           </div>
         </div>
@@ -113,6 +188,29 @@ export default function Portfolio() {
                 Github
               </a>
             </div>
+            <div className="organiseMyShopStockTechnologies">
+              <MDBBadge pill className="mx-2" color="info" light>
+                Node JS
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                Javascript
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                MySQL
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                API- Client Side
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                Express JS
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                Sequelize
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                Insomnia
+              </MDBBadge>
+            </div>
           </div>
         </div>
       </div>
@@ -142,6 +240,23 @@ export default function Portfolio() {
                 Github
               </a>
             </div>
+            <div className="scheduleMyLifeTechnologies">
+              <MDBBadge pill className="mx-2" color="info" light>
+                HTML5
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                CSS
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                Javascript
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                JQuery
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                Moment JS
+              </MDBBadge>
+            </div>
           </div>
         </div>
       </div>
@@ -170,6 +285,17 @@ export default function Portfolio() {
               >
                 Github
               </a>
+            </div>
+            <div className="generateMyPasswordTechnologies">
+              <MDBBadge pill className="mx-2" color="info" light>
+                HTML5
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                CSS
+              </MDBBadge>
+              <MDBBadge pill className="mx-2" color="info" light>
+                Javascript
+              </MDBBadge>
             </div>
           </div>
         </div>
