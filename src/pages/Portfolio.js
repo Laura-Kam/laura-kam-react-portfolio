@@ -3,6 +3,11 @@ import React from "react";
 import { MDBBadge } from "mdb-react-ui-kit";
 import "./pages.css";
 
+import maifrigoScreenshot from "../assets/maifrigoScreenshot.png";
+import sunsComeOutScreenshot from "../assets/sunsComeOutScreenshot.png";
+import scheduleMyLifeScreenshot from "../assets/scheduleMyLifeScreenshot.png";
+import passwordGeneratorScreenshot from "../assets/passwordGeneratorScreenshot.png";
+
 //JSX 6 cards.
 export default function Portfolio() {
   return (
@@ -10,7 +15,7 @@ export default function Portfolio() {
       <div className="col">
         <div className="card w-60 h-40 m-5">
           <img
-            src="https://images.unsplash.com/photo-1554177255-61502b352de3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            src={maifrigoScreenshot}
             class="card-img-top"
             alt="Palm Springs Road"
           />
@@ -60,7 +65,7 @@ export default function Portfolio() {
       <div className="col">
         <div className="card w-60 h-40 m-5">
           <img
-            src="https://images.unsplash.com/photo-1472114864173-39596323454f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            src={sunsComeOutScreenshot}
             class="card-img-top"
             alt="Hollywood Sign on The Hill"
           />
@@ -217,7 +222,7 @@ export default function Portfolio() {
       <div className="col">
         <div className="card w-60 h-40 m-5">
           <img
-            src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=868&q=80"
+            src={scheduleMyLifeScreenshot}
             class="card-img-top"
             alt="Los Angeles Skyscrapers"
           />
@@ -263,7 +268,7 @@ export default function Portfolio() {
       <div className="col">
         <div className="card w-60 h-40 m-5">
           <img
-            src="https://images.unsplash.com/photo-1634224143538-ce0221abf732?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+            src={passwordGeneratorScreenshot}
             class="card-img-top"
             alt="Skyscrapers"
           />
