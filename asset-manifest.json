@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/laura-kam-react-portfolio/static/css/main.60853d2c.css",
-    "main.js": "/laura-kam-react-portfolio/static/js/main.39ed05ce.js",
+    "main.css": "/laura-kam-react-portfolio/static/css/main.26cdd4b1.css",
+    "main.js": "/laura-kam-react-portfolio/static/js/main.6fb9fd9a.js",
     "static/js/787.c7fbfa51.chunk.js": "/laura-kam-react-portfolio/static/js/787.c7fbfa51.chunk.js",
     "static/media/devPicLKBlue.png": "/laura-kam-react-portfolio/static/media/devPicLKBlue.357ab21d0901083b3679.png",
     "static/media/maifrigoScreenshot.png": "/laura-kam-react-portfolio/static/media/maifrigoScreenshot.939e4fc9ce500ea83c78.png",
-    "static/media/sunsComeOutScreenshot.png": "/laura-kam-react-portfolio/static/media/sunsComeOutScreenshot.8697502b881408c0ecda.png",
     "static/media/scheduleMyLifeScreenshot.png": "/laura-kam-react-portfolio/static/media/scheduleMyLifeScreenshot.46fcd9a2e7dad44c6c33.png",
+    "static/media/sunsComeOutScreenshotMedium.png": "/laura-kam-react-portfolio/static/media/sunsComeOutScreenshotMedium.71babd4f8b71214232b2.png",
     "static/media/passwordGeneratorScreenshot.png": "/laura-kam-react-portfolio/static/media/passwordGeneratorScreenshot.25ba7ee6f8ee07f5288e.png",
+    "static/media/textEdScreenshot.png": "/laura-kam-react-portfolio/static/media/textEdScreenshot.f5d41ebed3d0c77591f8.png",
     "index.html": "/laura-kam-react-portfolio/index.html",
-    "main.60853d2c.css.map": "/laura-kam-react-portfolio/static/css/main.60853d2c.css.map",
-    "main.39ed05ce.js.map": "/laura-kam-react-portfolio/static/js/main.39ed05ce.js.map",
+    "main.26cdd4b1.css.map": "/laura-kam-react-portfolio/static/css/main.26cdd4b1.css.map",
+    "main.6fb9fd9a.js.map": "/laura-kam-react-portfolio/static/js/main.6fb9fd9a.js.map",
     "787.c7fbfa51.chunk.js.map": "/laura-kam-react-portfolio/static/js/787.c7fbfa51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60853d2c.css",
-    "static/js/main.39ed05ce.js"
+    "static/css/main.26cdd4b1.css",
+    "static/js/main.6fb9fd9a.js"
   ]
 }
