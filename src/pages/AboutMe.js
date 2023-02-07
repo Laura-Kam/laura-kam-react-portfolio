@@ -9,6 +9,7 @@ import {
   MDBCardFooter,
   MDBBtn,
 } from "mdb-react-ui-kit";
+import { Link } from "react-router-dom";
 
 // profile picture and about me
 import ProfilePic from "../assets/devPicLKBlue.png";
@@ -97,9 +98,7 @@ export default function AboutMe() {
               and Portuguese. I have also been playing basketball for 15 years
               and I dance cuban salsa.
             </MDBCardText>
-            <MDBBtn href="https://laura-kam.github.io/laura-kam-react-portfolio/#portfolio">
-              My Apps
-            </MDBBtn>
+            <MDBBtn href="#portfolio">My Apps</MDBBtn>
           </MDBCardBody>
           <MDBCardFooter className="text-muted"></MDBCardFooter>
         </MDBCard>
