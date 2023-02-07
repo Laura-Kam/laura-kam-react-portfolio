@@ -4,9 +4,10 @@ import { MDBBadge } from "mdb-react-ui-kit";
 import "./pages.css";
 
 import maifrigoScreenshot from "../assets/maifrigoScreenshot.png";
-import sunsComeOutScreenshot from "../assets/sunsComeOutScreenshot.png";
+import sunsComeOutScreenshot from "../assets/sunsComeOutScreenshotMedium.png";
 import scheduleMyLifeScreenshot from "../assets/scheduleMyLifeScreenshot.png";
 import passwordGeneratorScreenshot from "../assets/passwordGeneratorScreenshot.png";
+import textEdScreenshot from "../assets/textEdScreenshot.png";
 
 //JSX 6 cards.
 export default function Portfolio() {
@@ -15,13 +16,18 @@ export default function Portfolio() {
       <div className="col">
         <div className="card w-60 h-40 m-5">
           <img
+            className="imgScreenshot"
             src={maifrigoScreenshot}
             class="card-img-top"
             alt="Palm Springs Road"
           />
           <div className="card-body">
             <h5 className="card-title">Maifrigo Recipe App</h5>
-            <p className="card-text">100% Taste Zero Waste</p>
+            <p className="card-text">
+              React JS App, full stack MERN application that allows you to input
+              spare ingredients you have in your fridge, and discover delicious
+              recipes. Zero waste.
+            </p>
             <div className="d-flex justify-content-evenly">
               <a
                 href="https://watch.screencastify.com/v/WmSWJcROgn9cd9LAN12u"
@@ -65,13 +71,17 @@ export default function Portfolio() {
       <div className="col">
         <div className="card w-60 h-40 m-5">
           <img
+            className="imgScreenshot"
             src={sunsComeOutScreenshot}
             class="card-img-top"
             alt="Hollywood Sign on The Hill"
           />
           <div className="card-body">
             <h5 className="card-title">Sun's Come Out App</h5>
-            <p className="card-text">What's the weather in Madrid?</p>
+            <p className="card-text">
+              Built using a third-party server-side Weather API, search for your
+              your 5 day weather conditions of your favourite cities
+            </p>
             <div className="d-flex justify-content-evenly">
               {/* links to github and deployed app */}
               <a
@@ -112,7 +122,7 @@ export default function Portfolio() {
               light
               style={{ margin: "23px" }}
             >
-              Javascript
+              JavaScript
             </MDBBadge>
           </div>
         </div>
@@ -120,13 +130,18 @@ export default function Portfolio() {
       <div className="col">
         <div className="card w-60 h-40 m-5">
           <img
-            src="https://images.unsplash.com/photo-1509475826633-fed577a2c71b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+            className="imgScreenshot"
+            src={textEdScreenshot}
             class="card-img-top"
             alt="Palm Springs Road"
           />
           <div className="card-body">
             <h5 className="card-title">TextEd Text Editor App</h5>
-            <p className="card-text">Record your thoughts.</p>
+            <p className="card-text">
+              A note-taking app, created using webpack, manifest, indexedDB json
+              and a service worker to allow you to write up and save notes
+              offline.
+            </p>
             <div className="d-flex justify-content-evenly">
               <a
                 href="https://cryptic-dawn-19004.herokuapp.com/"
@@ -143,7 +158,7 @@ export default function Portfolio() {
             </div>
             <div className="textEdTechnologies">
               <MDBBadge pill className="mx-2" color="info" light>
-                Javascript
+                JavaScript
               </MDBBadge>
               <MDBBadge pill className="mx-2" color="info" light>
                 Heroku
@@ -170,6 +185,7 @@ export default function Portfolio() {
       <div className="col">
         <div className="card w-60 h-40 m-5">
           <img
+            className="imgScreenshot"
             src="https://images.unsplash.com/photo-1517490232338-06b912a786b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
             class="card-img-top"
             alt="Palm Springs Road"
@@ -177,7 +193,10 @@ export default function Portfolio() {
           <div className="card-body">
             <h5 className="card-title">Organise My ShopStock App</h5>
             <p className="card-text">
-              Your one-stop app for organising your products.
+              An app built using Node JS and MySQL.This is the backend for an
+              e-commerce site. The app allows the user to view and format their
+              databases in an accessible manner. These include adding, viewing
+              and deleting, usernames, emails, passwords and viewing products.
             </p>
             <div className="d-flex justify-content-evenly">
               <a
@@ -198,7 +217,7 @@ export default function Portfolio() {
                 Node JS
               </MDBBadge>
               <MDBBadge pill className="mx-2" color="info" light>
-                Javascript
+                JavaScript
               </MDBBadge>
               <MDBBadge pill className="mx-2" color="info" light>
                 MySQL
@@ -222,6 +241,7 @@ export default function Portfolio() {
       <div className="col">
         <div className="card w-60 h-40 m-5">
           <img
+            className="imgScreenshot"
             src={scheduleMyLifeScreenshot}
             class="card-img-top"
             alt="Los Angeles Skyscrapers"
@@ -229,7 +249,9 @@ export default function Portfolio() {
           <div className="card-body">
             <h5 className="card-title">Schedule My Life App</h5>
             <p className="card-text">
-              A colour-coded app, to make sure no appointments are missed.
+              An app built with JavaScript, using a client-side API,this is a
+              colour-coded schedule app, allowing you to save events in a
+              calender.
             </p>
             <div className="d-flex justify-content-evenly">
               <a
@@ -253,7 +275,7 @@ export default function Portfolio() {
                 CSS
               </MDBBadge>
               <MDBBadge pill className="mx-2" color="info" light>
-                Javascript
+                JavaScript
               </MDBBadge>
               <MDBBadge pill className="mx-2" color="info" light>
                 JQuery
@@ -268,6 +290,7 @@ export default function Portfolio() {
       <div className="col">
         <div className="card w-60 h-40 m-5">
           <img
+            className="imgScreenshot"
             src={passwordGeneratorScreenshot}
             class="card-img-top"
             alt="Skyscrapers"
@@ -275,7 +298,8 @@ export default function Portfolio() {
           <div className="card-body">
             <h5 className="card-title">Generate My Password App</h5>
             <p className="card-text">
-              Random Password Generator, for when you are all out of ideas.
+              This app was created with JavaScript, it allows the user to
+              generate a random password for websites.
             </p>
             <div className="d-flex justify-content-evenly">
               <a
@@ -299,7 +323,7 @@ export default function Portfolio() {
                 CSS
               </MDBBadge>
               <MDBBadge pill className="mx-2" color="info" light>
-                Javascript
+                JavaScript
               </MDBBadge>
             </div>
           </div>

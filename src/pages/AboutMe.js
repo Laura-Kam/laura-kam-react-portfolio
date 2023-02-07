@@ -46,6 +46,8 @@ export default function AboutMe() {
             <br />
             You are welcome to look around.
             <br />
+            Email me at laurakam91@gmail.com
+            <br />
             <span>
               <a href="https://www.github.com/laura-kam">GitHub {"   "} </a>
             </span>
@@ -59,8 +61,6 @@ export default function AboutMe() {
                 CV{"   "}
               </a>
             </span>
-            <br />
-            Email me at: laurakam91@gmail.com
             {/* <p
           style={{
             fontSize: "15px",
@@ -91,12 +91,17 @@ export default function AboutMe() {
               employment include project management, leadership, teamwork and
               communication. I’m excited to use my skills as part of a
               quality-driven team to build better experiences for web-users.
+              <br />
+              <br />
+              My other interests include language learning, especially Spanish
+              and Portuguese. I have also been playing basketball for 15 years
+              and I dance cuban salsa.
             </MDBCardText>
             <MDBBtn href="https://laura-kam.github.io/laura-kam-react-portfolio/#portfolio">
               My Apps
             </MDBBtn>
           </MDBCardBody>
-          <MDBCardFooter className="text-muted">2 days ago</MDBCardFooter>
+          <MDBCardFooter className="text-muted"></MDBCardFooter>
         </MDBCard>
       </div>
     </div>

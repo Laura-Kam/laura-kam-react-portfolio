@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 export default function Header() {
   return (
@@ -19,6 +20,7 @@ export default function Header() {
             <div className="text-white">
               <h1 className="mb-3">Laura Kambanis</h1>
               <h4 className="mb-3">Coding Solutions </h4>
+
               <a
                 className="btn btn-outline-light btn-lg"
                 href="http://localhost:3000/#contact"
