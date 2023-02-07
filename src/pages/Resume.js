@@ -10,7 +10,7 @@ import {
   MDBListGroupItem,
 } from "mdb-react-ui-kit";
 
-// import LauraCV from ".../public/LauraKambanisCV.pdf";
+import LauraCV from ".../public/LauraKambanisCV.pdf";
 
 export default function Resume() {
   return (
@@ -20,10 +20,11 @@ export default function Resume() {
           <MDBCardTitle>Competencies</MDBCardTitle>
           {/* download resume */}
           <a
-            href="../../../LauraKambanisCV.pdf"
+            href={LauraCV}
             target={"_blank"}
             download
             className="btn btn-primary"
+            rel="noreferrer"
           >
             Download Resume
           </a>
