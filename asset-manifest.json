@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/laura-kam-react-portfolio/static/css/main.26cdd4b1.css",
-    "main.js": "/laura-kam-react-portfolio/static/js/main.6078d119.js",
+    "main.js": "/laura-kam-react-portfolio/static/js/main.2b274359.js",
     "static/js/787.c7fbfa51.chunk.js": "/laura-kam-react-portfolio/static/js/787.c7fbfa51.chunk.js",
     "static/media/devPicLKBlue.png": "/laura-kam-react-portfolio/static/media/devPicLKBlue.357ab21d0901083b3679.png",
     "static/media/maifrigoScreenshot.png": "/laura-kam-react-portfolio/static/media/maifrigoScreenshot.939e4fc9ce500ea83c78.png",
@@ -11,11 +11,11 @@
     "static/media/textEdScreenshot.png": "/laura-kam-react-portfolio/static/media/textEdScreenshot.f5d41ebed3d0c77591f8.png",
     "index.html": "/laura-kam-react-portfolio/index.html",
     "main.26cdd4b1.css.map": "/laura-kam-react-portfolio/static/css/main.26cdd4b1.css.map",
-    "main.6078d119.js.map": "/laura-kam-react-portfolio/static/js/main.6078d119.js.map",
+    "main.2b274359.js.map": "/laura-kam-react-portfolio/static/js/main.2b274359.js.map",
     "787.c7fbfa51.chunk.js.map": "/laura-kam-react-portfolio/static/js/787.c7fbfa51.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26cdd4b1.css",
-    "static/js/main.6078d119.js"
+    "static/js/main.2b274359.js"
   ]
 }
