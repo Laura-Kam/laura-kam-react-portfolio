@@ -26,7 +26,7 @@ export default function Resume() {
             className="btn btn-primary"
             rel="noreferrer"
           >
-            Download Resume
+            Click for my resume
           </a>
         </MDBCardBody>
       </MDBCard>
